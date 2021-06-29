@@ -6,12 +6,14 @@
 
         <title>Welcome</title>
     </head>
-    <body class="antialiased">
-       <div class="nav">
+    <body>
+        <h1>Home</h1>
+        <div class="nav">
             <ul>
+                <li><a href="/">Home</a></li>
                 <li><a href="/skills">Skills</a></li>
                 <li><a href="/projects/create">Create new project</a></li>
             </ul>
-       </div>
+        </div>
     </body>
 </html>

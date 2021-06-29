@@ -6,16 +6,18 @@
 
         <title>Skills</title>
     </head>
-    <body class="antialiased">
+    <body>
+        <h1>Skills</h1>
         <div class="nav">
             <ul>
+                <li><a href="/">Home</a></li>
                 <li><a href="/skills">Skills</a></li>
                 <li><a href="/projects/create">Create new project</a></li>
             </ul>
         </div>
         <br>
 
-        <div id="root">
+        <div id="skills">
             <ul>
                 <li v-for="skill in skills">@{{ skill }}</li>
             </ul>
@@ -23,6 +25,6 @@
 
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-        <script src="/js/app.js"></script>
+        <script src="/js/skills.js"></script>
     </body>
 </html>
